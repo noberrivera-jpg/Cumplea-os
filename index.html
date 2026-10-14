@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¡Feliz Cumpleaños!</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+
+  <main class="container">
+
+    <span class="badge">✦ UN DÍA ESPECIAL SE ACERCA ✦</span>
+
+    <h1>¡Se acerca tu <span>cumpleaños!</span></h1>
+
+    <p class="subtitle">
+      La magia está en camino,
+      <strong id="personName">estrella</strong>.
+      Cada segundo nos acerca a tu gran día. 🎉
+    </p>
+
+    <!-- CUENTA REGRESIVA -->
+    <section class="countdown">
+      <div class="time-box">
+        <span id="days">000</span>
+        <small>DÍAS</small>
+      </div>
+
+      <div class="time-box">
+        <span id="hours">00</span>
+        <small>HORAS</small>
+      </div>
+
+      <div class="time-box">
+        <span id="minutes">00</span>
+        <small>MINUTOS</small>
+      </div>
+
+      <div class="time-box">
+        <span id="seconds">00</span>
+        <small>SEGUNDOS</small>
+      </div>
+    </section>
+
+    <!-- PERSONALIZACIÓN -->
+    <section class="settings">
+      <label for="birthday">Fecha del cumpleaños</label>
+      <input type="date" id="birthday">
+
+      <label for="nameInput">Nombre</label>
+      <input
+        type="text"
+        id="nameInput"
+        placeholder="Escribe un nombre"
+        maxlength="30"
+      >
+
+      <button id="saveBtn" class="button primary">
+        Personalizar ✨
+      </button>
+    </section>
+
+    <!-- BOTONES -->
+    <section class="buttons">
+      <button id="confettiBtn" class="button primary">
+        🎊 Lanzar confeti
+      </button>
+
+      <button id="wishBtn" class="button secondary">
+        💌 Leer un deseo
+      </button>
+
+      <button id="musicBtn" class="button secondary">
+        🔊 Sonido: apagado
+      </button>
+    </section>
+
+    <!-- DECORACIÓN -->
+    <section class="birthday-scene">
+
+      <div class="balloon balloon-one"></div>
+      <div class="balloon balloon-two"></div>
+      <div class="balloon balloon-three"></div>
+      <div class="balloon balloon-four"></div>
+
+      <div class="cake">
+        <div class="cake-base"></div>
+        <div class="icing"></div>
+        <div class="sprinkles"></div>
+
+        <div class="candle"></div>
+        <div class="flame"></div>
+      </div>
+
+    </section>
+
+    <!-- MENSAJE -->
+    <p class="wish" id="wishText">
+      Que tu próximo año esté lleno de
+      <strong>risas, sueños cumplidos y momentos inolvidables.</strong>
+      💖
+    </p>
+
+    <footer>
+      Hecho con ❤️, color y un poquito de magia.
+    </footer>
+
+  </main>
+
+</body>
+</html>
